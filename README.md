@@ -34,6 +34,10 @@ git clone https://github.com/prithivilakshmanan/dns_zone_transfer_misconfigurati
 cd dns_zone_transfer_misconfiguration_checker
 ```
 
+---
+
+## 🚀 Scanning Steps
+
 ### 1️⃣ Scan Single Domain
 ```bash
 python3 dns_zone_misconfig_checker.py -d domain.com
