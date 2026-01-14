@@ -21,24 +21,24 @@ A Python-based security testing tool to detect **DNS Zone Transfer (AXFR) miscon
 - Python 3.x
 - dig utility
 
-🚀 Installation (Linux)
-1️⃣ Clone the Repository
-` git clone https://github.com/prithivilakshmanan/dns_zone_transfer_misconfiguration_checker.git
-cd dns_zone_transfer_misconfiguration_checker`
+<!-- =============================== -->
+<!-- Installation Section (Linux)   -->
+<!-- =============================== -->
 
-2️⃣ Install Required Dependency
+## 🚀 Installation (Linux)
 
-This tool uses the dig utility to perform DNS zone transfer checks.
+```bash
+git clone https://github.com/prithivilakshmanan/dns_zone_transfer_misconfiguration_checker.git
+cd dns_zone_transfer_misconfiguration_checker
 
-Kali Linux / Ubuntu / Debian
-` sudo apt update
-sudo apt install dnsutils -y`
-Verify installation:
-` dig -v`
+### 1️⃣ Scan Single Domain
+```bash
+python3 dns_zone_misconfig_checker.py -d domain.com
 
-▶ Usage
-- Scan a Single Domain
-` python3 dns_zone_misconfig_checker.py -d domain.com`
-- Scan Multiple Domains
-` python3 dns_zone_misconfig_checker.py -t domains.txt`
+### 2️⃣ Scan Multiple Domains
+
+```bash
+python3 dns_zone_misconfig_checker.py -t domains.txt
+
+
 
