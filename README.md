@@ -21,6 +21,8 @@ A Python-based security testing tool to detect **DNS Zone Transfer (AXFR) miscon
 - Python 3.x
 - dig utility
 
+---
+
 <!-- =============================== -->
 <!-- Installation Section (Linux)   -->
 <!-- =============================== -->
