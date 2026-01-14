@@ -36,11 +36,15 @@ cd dns_zone_transfer_misconfiguration_checker
 ```bash
 python3 dns_zone_misconfig_checker.py -d domain.com
 ```
+<img width="624" height="269" alt="1" src="https://github.com/user-attachments/assets/b8d197dd-31f5-4312-97bb-301df567479c" />
+
 ### 2️⃣ Scan Multiple Domains
 
 ```bash
 python3 dns_zone_misconfig_checker.py -t domains.txt
 ```
+
+<img width="838" height="386" alt="2" src="https://github.com/user-attachments/assets/9a51e16a-ca7d-4dc1-85a6-3ec980de5ed3" />
 
 
 
