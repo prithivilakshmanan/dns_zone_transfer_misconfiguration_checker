@@ -30,15 +30,17 @@ A Python-based security testing tool to detect **DNS Zone Transfer (AXFR) miscon
 ```bash
 git clone https://github.com/prithivilakshmanan/dns_zone_transfer_misconfiguration_checker.git
 cd dns_zone_transfer_misconfiguration_checker
+```
 
 ### 1️⃣ Scan Single Domain
 ```bash
 python3 dns_zone_misconfig_checker.py -d domain.com
-
+```
 ### 2️⃣ Scan Multiple Domains
 
 ```bash
 python3 dns_zone_misconfig_checker.py -t domains.txt
+```
 
 
 
